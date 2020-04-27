@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4269ABDD24567A7D00D7D4F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABDC24567A7D00D7D4F4 /* main.cpp */; };
+		4269ABE824567D0B00D7D4F4 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABE624567D0B00D7D4F4 /* Card.cpp */; };
+		4269ABEB24567D1500D7D4F4 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABE924567D1500D7D4F4 /* Hand.cpp */; };
+		4269ABEE24567D2900D7D4F4 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABEC24567D2900D7D4F4 /* Player.cpp */; };
+		4269ABF024567EC300D7D4F4 /* siete-y-medio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4269ABEF24567EC300D7D4F4 /* siete-y-medio.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,11 @@
 
 /* Begin PBXFileReference section */
 		4269ABD924567A7D00D7D4F4 /* hw1-versioncontrol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw1-versioncontrol"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4269ABDC24567A7D00D7D4F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4269ABE624567D0B00D7D4F4 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		4269ABE724567D0B00D7D4F4 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4269ABE924567D1500D7D4F4 /* Hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
+		4269ABEC24567D2900D7D4F4 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		4269ABEF24567EC300D7D4F4 /* siete-y-medio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "siete-y-medio.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,11 @@
 		4269ABDB24567A7D00D7D4F4 /* hw1-versioncontrol */ = {
 			isa = PBXGroup;
 			children = (
-				4269ABDC24567A7D00D7D4F4 /* main.cpp */,
+				4269ABEF24567EC300D7D4F4 /* siete-y-medio.cpp */,
+				4269ABE624567D0B00D7D4F4 /* Card.cpp */,
+				4269ABE724567D0B00D7D4F4 /* Card.h */,
+				4269ABE924567D1500D7D4F4 /* Hand.cpp */,
+				4269ABEC24567D2900D7D4F4 /* Player.cpp */,
 			);
 			path = "hw1-versioncontrol";
 			sourceTree = "<group>";
@@ -118,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4269ABDD24567A7D00D7D4F4 /* main.cpp in Sources */,
+				4269ABEE24567D2900D7D4F4 /* Player.cpp in Sources */,
+				4269ABEB24567D1500D7D4F4 /* Hand.cpp in Sources */,
+				4269ABE824567D0B00D7D4F4 /* Card.cpp in Sources */,
+				4269ABF024567EC300D7D4F4 /* siete-y-medio.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
