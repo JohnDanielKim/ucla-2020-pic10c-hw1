@@ -72,7 +72,7 @@ public:
 	Hand();
 	
 	// You decide what functions you'll need...
-	
+          int hand_size ();
 private:
 	// You decide what fields you'll need...
 };
@@ -85,7 +85,8 @@ public:
 	Player(int m);
 	
 	// You decide what functions you'll need...
-	
+          void get_money (int money);
+          void set_money (int money);
 private:
 	int money;
 	// You decide what extra fields (if any) you'll need...

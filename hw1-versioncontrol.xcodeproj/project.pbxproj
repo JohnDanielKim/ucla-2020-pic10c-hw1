@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		4269ABD924567A7D00D7D4F4 /* hw1-versioncontrol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw1-versioncontrol"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4269ABE624567D0B00D7D4F4 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
-		4269ABE724567D0B00D7D4F4 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4269ABE724567D0B00D7D4F4 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		4269ABE924567D1500D7D4F4 /* Hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
 		4269ABEC24567D2900D7D4F4 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		4269ABEF24567EC300D7D4F4 /* siete-y-medio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "siete-y-medio.cpp"; sourceTree = "<group>"; };
