@@ -7,3 +7,15 @@
 //
 
 #include "Card.h"
+
+Player::Player (int m) {
+	Player::money = m;
+}
+
+int Player::get_money () {
+	return Player::money;
+}
+
+void Player::set_money (int n) {
+	Player::money = n;
+}

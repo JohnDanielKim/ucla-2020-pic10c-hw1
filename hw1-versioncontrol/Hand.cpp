@@ -7,3 +7,13 @@
 //
 
 #include "Card.h"
+
+Hand::Hand() {}
+
+int Hand::hand_size() {
+	int temp = 0;
+	for (int i = 0; cards.size(); i++) {
+		temp += cards[i];
+	}
+	return temp;
+}

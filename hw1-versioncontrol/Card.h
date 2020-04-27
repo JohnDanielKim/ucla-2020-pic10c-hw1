@@ -75,6 +75,7 @@ public:
           int hand_size ();
 private:
 	// You decide what fields you'll need...
+          vector<int> cards;
 };
 
 
@@ -85,8 +86,8 @@ public:
 	Player(int m);
 	
 	// You decide what functions you'll need...
-          void get_money (int money);
-          void set_money (int money);
+          int get_money ();
+          void set_money (int n);
 private:
 	int money;
 	// You decide what extra fields (if any) you'll need...
